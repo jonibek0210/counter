@@ -1,0 +1,136 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+
+ul,
+ol,
+li {
+   list-style: none;
+}
+
+/* ========================================== */
+
+.photo {
+   object-fit: cover;
+   width: 1000px;
+}
+
+.wrapper {
+   max-width: 1000px;
+   height: 1000px;
+   margin: 20px auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.Supercharged__text {
+   text-align: center;
+   margin-bottom: 63px;
+}
+
+.Supercharged__text h1 {
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 59px;
+   margin-bottom: 24px;
+}
+
+.Supercharged__text span {
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 22px;
+}
+
+.Supercharged__color__price {
+   display: flex;
+   gap: 76px;
+   margin: 24px 100px 60px 100px;
+   align-items: center;
+   justify-content: center;
+}
+
+.Supercharged__price {
+   height: 100%;
+   padding: 40px 0 0 0;
+}
+
+.Supercharged__price h1 {
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 59px;
+}
+
+.Supercharged__price span {
+   color: #0071E3;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+   margin-bottom: 48px;
+   display: block;
+}
+
+.Supercharged__price p {
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 59px;
+   color: #000000;
+}
+
+.Supercharged__buttons {
+   margin-bottom: 40px;
+   display: flex;
+   gap: 11px;
+}
+
+.Supercharged__buttons button {
+   width: 155px;
+   height: 42px;
+   left: 869px;
+   top: 653px;
+   background: #CFE7FF;
+   border-radius: 10px;
+   border: none;
+   color: #797979;
+   font-size: 18px;
+   line-height: 22px;
+   cursor: pointer;
+   font-weight: 500;
+}
+
+.Supercharged__tb_ssd {
+   display: flex;
+   flex-direction: column;
+   gap: 7px;
+}
+
+.btn {
+   width: 321px;
+   height: 57px;
+   left: 703px;
+   top: 798px;
+   border: 2px solid #CFE7FF;
+   border-radius: 10px;
+   padding: 20px;
+   transition: .3s ease;
+   display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 22px;
+   color: #000000;
+}
+
+.btn-img.active {
+   background-color: #0071E3;
+   color: #FFFFFF;
+}
+
+.active2 {
+   border: 2px solid #007FFF;
+   border-radius: 10px;
+}
